@@ -16,3 +16,11 @@
     flex-direction: column;
     padding: 120px 20px 120px 45px;
 }
+.introduction p {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    max-width: 650px;
+    word-wrap: break-word;
+    margin-bottom: 25px;
+}
