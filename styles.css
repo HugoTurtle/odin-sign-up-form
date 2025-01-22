@@ -11,3 +11,8 @@
 .photo-container {
     display: flex;
 }
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 20px 120px 45px;
+}
