@@ -14,13 +14,12 @@
 .form-container {
     display: flex;
     flex-direction: column;
-    padding: 120px 20px 120px 45px;
+    padding: 120px 0px 120px 0px;
 }
 .introduction p {
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    max-width: 650px;
-    word-wrap: break-word;
+    padding: 0px 250px 0px 45px;
     margin-bottom: 25px;
 }
