@@ -20,6 +20,9 @@
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    padding: 0px 250px 0px 45px;
+    padding-right: 250px;
     margin-bottom: 25px;
+}
+.form-container > div{
+    padding-left: 45px;
 }
