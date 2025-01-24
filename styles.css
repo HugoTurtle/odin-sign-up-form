@@ -36,3 +36,12 @@
 form p {
     font: var(--main-font-styles);
 }
+label {
+    display: block;
+} 
+input {
+    display: inline-block;
+}
+.input-container {
+    display: inline-block;
+}
