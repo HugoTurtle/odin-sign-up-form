@@ -5,6 +5,7 @@
 }
 :root {
     --main-font-styles: 600 1.2rem 'Montserrat', sans-serif;
+    --pink-color-theme: #bf3186;
 }
 .container {
     display: flex;
@@ -94,9 +95,9 @@ button {
     margin-bottom: 20px;
     width: 175px;
     padding: 8px 20px;
-    background-color: #bf3186;
+    background-color: var(--pink-color-theme);
     font: 500 0.9rem 'Montserrat', sans-serif;
-    border: 2px solid #bf3186;
+    border: 2px solid var(--pink-color-theme);
     border-radius: 4px;
     color: white;
 }
@@ -105,5 +106,5 @@ button + p {
 }
 button + p > a {
     text-decoration: none;
-    color: #bf3186;
+    color: var(--pink-color-theme);
 }
