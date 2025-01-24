@@ -7,6 +7,14 @@
     --main-font-styles: 600 1.2rem 'Montserrat', sans-serif;
     --pink-color-theme: #bf3186;
 }
+@font-face {
+    font-family: "computerwebfont";
+    src: 
+        url(./fonts/webfontkit-20250117-193047/computer-webfont.woff2),
+        url(./fonts/webfontkit-20250117-193047/computer-webfont.woff);
+    font-weight: normal;
+    font-style: normal;
+}
 .container {
     display: flex;
     width: 100%;
@@ -36,7 +44,9 @@
     fill: white;
 }
 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+    font-family: "computerwebfont";
+    letter-spacing: 0.5rem;
 }
 .form-container {
     display: flex;
