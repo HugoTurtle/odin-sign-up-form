@@ -35,6 +35,7 @@
 }
 form p {
     font: var(--main-font-styles);
+    margin-top: 10px;
     margin-bottom: 15px;
 }
 form > div > div {
