@@ -35,6 +35,7 @@
 }
 form p {
     font: var(--main-font-styles);
+    margin-bottom: 15px;
 }
 label {
     display: block;
