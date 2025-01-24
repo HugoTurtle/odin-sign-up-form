@@ -37,6 +37,9 @@ form p {
     font: var(--main-font-styles);
     margin-bottom: 15px;
 }
+form > div > div {
+    margin-bottom: 12px;
+}
 label {
     display: block;
 } 
@@ -53,4 +56,12 @@ label {
   font-size: 0.8rem;
   font-weight: 300;
   letter-spacing: 1.2px;
+}
+input {
+    appearance: none;
+    border: 1px solid silver;
+    height: 25px;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: rgb(252, 252, 252);
 }
